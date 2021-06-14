@@ -1,0 +1,33 @@
+{
+  "name": "TXServerRestartJS",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "lint": "eslint .",
+    "prettier": "prettier --check .",
+    "prettier:fix": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "ItzDabbzz",
+  "license": "MIT",
+  "dependencies": {
+    "@citizenfx/client": "^2.0.3825-1",
+    "@citizenfx/server": "^2.0.3825-1",
+    "axios": "^0.21.1",
+    "remove-files-webpack-plugin": "^1.4.5",
+    "webhook-discord": "^3.7.7",
+    "webpack": "^5.33.2"
+  },
+  "devDependencies": {
+    "debug": "^4.3.1",
+    "eslint": "^7.24.0",
+    "eslint-config-prettier": "^8.2.0",
+    "eslint-plugin-json": "^2.1.2",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.2.1",
+    "webpack-cli": "^4.6.0"
+  }
+}
